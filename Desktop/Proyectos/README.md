@@ -1,1 +1,0 @@
-# Este archivo es para saber usar git y GitHub
