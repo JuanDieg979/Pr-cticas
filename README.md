@@ -4,3 +4,5 @@
 - `git init` 
 ### Para volver a usar mi repositorio
 - `cd ruta/del/repositorio`
+- `git status`
+- 
