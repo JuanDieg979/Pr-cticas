@@ -10,6 +10,23 @@
 - `git status`: Para ver si hay cambios por realizar
 - `git add .`: Para subir todos los archivos o para archivo especifico usar `git add nombre_archivo.ext`
 - `git commit -m "Agregando nuevos archivos"`: Esto guarda los cambios en un historial local
+- `git push` o `git push origin main`: Para poder subir los archivos
+- Ejemplo de como quedaria:
+```
+git status
+git add index.html
+git commit -m "Creando archivo index.html"
+git push origin main
+```
+Tips utiles
+- Si ya habías hecho cambios y quieres subir todo de golpe:
+```
+git add .
+git commit -m "Actualización general"
+git push origin main
+```
+- Si te pide usuario/contraseña, asegúrate de tener configurado el SSH key o el token de acceso personal en GitHub.
+-Puedes confirmar que se subió entrando al repositorio en GitHub y revisando los archivos.
 
 
 
