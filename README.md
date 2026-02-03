@@ -8,5 +8,8 @@
 - `git pull origin main`: Para traer la version mas reciente
 ### Para subir los archivos de manera local por medio de visual studio
 - `git status`: Para ver si hay cambios por realizar
-- `git add .`: Para subir todos los archivos o en el caso de querer un archivo en especifico usar `git add README.md`
+- `git add .`: Para subir todos los archivos o para archivo especifico usar `git add nombre_archivo.ext`
+- `git commit -m "Agregando nuevos archivos"`: Esto guarda los cambios en un historial local
+
+
 
