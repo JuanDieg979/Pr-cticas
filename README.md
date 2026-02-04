@@ -32,8 +32,8 @@ git push origin main
     - `q` Para salir del historial de actualizaciones
 Algunos atajos de git log son:
 - Espacio &rarr; avanza una pagina
-- Enter -> avanza una linea
-- b -> retrocede una pagina
-- q -> salir del log
+- Enter &rarr; avanza una linea
+- b &rarr; retrocede una pagina
+- q &rarr; salir del log
 
 
