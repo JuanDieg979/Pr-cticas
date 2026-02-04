@@ -35,5 +35,9 @@ Algunos atajos de git log son:
 - Enter &rarr; avanza una linea
 - b &rarr; retrocede una pagina
 - q &rarr; salir del log
-
+### Comandos basicos
+- `git status` &rarr; Muestra el estado actual de tu repo (archivos modificados, pendientes de commit, etc.).
+- `git diff` &rarr; Muestra las diferencias entre tu carpeta y el último commit.
+- `git log --oneline` &rarr; Historial compacto de commits.
+- `git show <id-commit>` &rarr; Muestra detalles de un commit específico.
 
