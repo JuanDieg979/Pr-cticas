@@ -59,3 +59,9 @@ Deshacer y restaurar
 - `git reset --soft HEAD~1` &rarr; Deshace el último commit pero conserva los cambios.
 - `git reset --hard HEAD~1` &rarr; Vuelve al commit anterior y borra cambios locales.
 - `git revert <id-commit>` &rarr; Crea un nuevo commit que deshace los cambios de uno anterior (más seguro que reset si ya compartiste el repo).
+
+Remotos
+- `git remote -v` &rarr; Lista los repositorios remotos vinculados.
+- `git fetch origin` &rarr; Descarga cambios del remoto sin fusionarlos.
+- `git pull origin main` &rarr; Descarga y fusiona cambios del remoto.
+- `git push origin main` &rarr; Sube tus commits al remoto.
