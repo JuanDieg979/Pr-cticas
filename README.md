@@ -65,3 +65,8 @@ Remotos
 - `git fetch origin` &rarr; Descarga cambios del remoto sin fusionarlos.
 - `git pull origin main` &rarr; Descarga y fusiona cambios del remoto.
 - `git push origin main` &rarr; Sube tus commits al remoto.
+
+Algunos tips practicos
+- Usa `git help <comando>` para ver documentación rápida.
+- Combina `git log --graph --oneline --decorate --all` para ver un mapa visual de ramas y commits.
+- Recuerda que `reset` borra historial local, mientras que `revert` crea un commit inverso (ideal cuando trabajas en equipo).
