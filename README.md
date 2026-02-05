@@ -45,3 +45,9 @@ Manejo de archivos
 - `git add archivo` &rarr; Agrega un archivo al staging.
 - `git rm archivo` &rarr; Elimina un archivo del repo y lo marca para commit.
 - `git mv archivo-nuevo archivo-viejo` &rarr; Renombra o mueve un archivo.
+Ramas
+- `git branch` &rarr; lista de ramas existentes.
+- `git branch nombre-rama` &rarr; crea una nueva rama.
+- `git checkout nombre-rama` &rarr; cambia a otra rama.
+- `git merge nombre-rama` &rarr; fusiona una rama en la actual.
+- `git switch nombre-rama &rarr; alternativa moderna a checkout.
