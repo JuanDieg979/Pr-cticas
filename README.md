@@ -1,5 +1,5 @@
 # Este archivo es para saber usar git y GitHub
-## Codigos de GitHub que me pueden servir 
+## Codigos de GitHub que nos pueden servir
 ### Comandos mas usados
 - `git init` 
 ### Para volver a usar mi repositorio
@@ -70,3 +70,8 @@ Algunos tips practicos
 - Usa `git help <comando>` para ver documentación rápida.
 - Combina `git log --graph --oneline --decorate --all` para ver un mapa visual de ramas y commits.
 - Recuerda que `reset` borra historial local, mientras que `revert` crea un commit inverso (ideal cuando trabajas en equipo).
+
+# Guia basica de comandos Git
+
+## 🚀 Inicialización
+- `git init` → Inicializa un repositorio en la carpeta actual. - `git clone <url>` → Clona un repositorio remoto en tu computadora.
