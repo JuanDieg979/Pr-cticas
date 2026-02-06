@@ -71,7 +71,7 @@ Algunos tips practicos
 - Combina `git log --graph --oneline --decorate --all` para ver un mapa visual de ramas y commits.
 - Recuerda que `reset` borra historial local, mientras que `revert` crea un commit inverso (ideal cuando trabajas en equipo).
 
-# Guia basica de comandos Git
+# Guía básica de comandos Git
 
 ## 🚀 Inicialización
 - `git init` &rarr; Inicializa un repositorio en la carpeta actual. 
@@ -82,3 +82,9 @@ Algunos tips practicos
 - `git add <archivo>` &rarr; Agrega un archivo al área de preparación.
 - `git add .` &rarr; Agrega todos los archivos modificados. 
 - `git commit -m "mensaje"` &rarr; Guarda los cambios en el historial.
+
+## 🔄 Sincronización con GitHub 
+- `git remote -v` &rarr; Lista los repositorios remotos vinculados. 
+- `git push origin main` &rarr; Sube tus cambios a GitHub. 
+- `git pull origin main` &rarr; Trae la versión más reciente desde GitHub. 
+- `git fetch origin` &rarr; Descarga cambios sin fusionarlos.
