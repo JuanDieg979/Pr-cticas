@@ -74,4 +74,11 @@ Algunos tips practicos
 # Guia basica de comandos Git
 
 ## 🚀 Inicialización
-- `git init` → Inicializa un repositorio en la carpeta actual. - `git clone <url>` → Clona un repositorio remoto en tu computadora.
+- `git init` &rarr; Inicializa un repositorio en la carpeta actual. 
+- `git clone <url>` &rarr; Clona un repositorio remoto en tu computadora.
+
+## 📂 Estado y cambios
+- `git status` &rarr; Muestra el estado de los archivos. 
+- `git add <archivo>` &rarr; Agrega un archivo al área de preparación.
+- `git add .` &rarr; Agrega todos los archivos modificados. 
+- `git commit -m "mensaje"` &rarr; Guarda los cambios en el historial.
