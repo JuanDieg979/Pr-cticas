@@ -88,3 +88,8 @@ Algunos tips practicos
 - `git push origin main` &rarr; Sube tus cambios a GitHub. 
 - `git pull origin main` &rarr; Trae la versión más reciente desde GitHub. 
 - `git fetch origin` &rarr; Descarga cambios sin fusionarlos.
+
+## 🧭 Historial 
+- `git log` &rarr; Muestra el historial de commits. 
+- `git log --oneline` &rarr; Historial compacto. 
+- `git show <id-commit>` &rarr; Detalles de un commit específico.
