@@ -93,3 +93,10 @@ Algunos tips practicos
 - `git log` &rarr; Muestra el historial de commits. 
 - `git log --oneline` &rarr; Historial compacto. 
 - `git show <id-commit>` &rarr; Detalles de un commit específico.
+
+## 🌿 Ramas 
+- `git branch` &rarr; Lista las ramas. 
+- `git branch <nombre>` &rarr; Crea una nueva rama. 
+- `git checkout <nombre>` &rarr; Cambia de rama. 
+- `git switch <nombre>` &rarr; Alternativa moderna a checkout. 
+- `git merge <rama>` &rarr; Fusiona una rama en la actual.
