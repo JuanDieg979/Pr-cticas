@@ -33,3 +33,9 @@
 - `git reset --soft HEAD~1` &rarr; Deshace el último commit pero conserva cambios. 
 - `git reset --hard HEAD~1` &rarr; Vuelve al commit anterior y borra cambios. 
 - `git revert <id-commit>` &rarr; Crea un commit inverso (más seguro en equipo).
+
+## 🛠 Otros útiles 
+- `git diff` &rarr; Muestra diferencias entre archivos. 
+- `git rm <archivo>` &rarr; Elimina un archivo del repo. 
+- `git mv <archivo> <nuevo-nombre>` &rarr; Renombra o mueve un archivo. 
+- `git help <comando>` &rarr; Muestra ayuda sobre un comando específico.
