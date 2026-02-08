@@ -27,3 +27,9 @@
 - `git checkout <nombre>` &rarr; Cambia de rama. 
 - `git switch <nombre>` &rarr; Alternativa moderna a checkout. 
 - `git merge <rama>` &rarr; Fusiona una rama en la actual.
+
+## 🧹 Deshacer cambios 
+- `git restore <archivo>` &rarr; Revierte un archivo al último commit. 
+- `git reset --soft HEAD~1` &rarr; Deshace el último commit pero conserva cambios. 
+- `git reset --hard HEAD~1` &rarr; Vuelve al commit anterior y borra cambios. 
+- `git revert <id-commit>` &rarr; Crea un commit inverso (más seguro en equipo).
