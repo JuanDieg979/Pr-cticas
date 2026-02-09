@@ -1,8 +1,14 @@
 # Guía básica de comandos Git
 
+Una referencia rápida y práctica para aprender y usar **Git** y **GitHub** en tus proyectos.
+
+---
+
 ## 🚀 Inicialización
 - `git init` &rarr; Inicializa un repositorio en la carpeta actual. 
 - `git clone <url>` &rarr; Clona un repositorio remoto en tu computadora.
+
+---
 
 ## 📂 Estado y cambios
 - `git status` &rarr; Muestra el estado de los archivos. 
