@@ -32,7 +32,10 @@ Una referencia rápida y práctica para aprender y usar **Git** y **GitHub** en 
 ## 🧭 Historial 
 - `git log` &rarr; Muestra el historial de commits. 
 - `git log --oneline` &rarr; Historial compacto. 
+- `git log --graph --oneline --decorate --all` &rarr; Historial visual con ramas. 
 - `git show <id-commit>` &rarr; Detalles de un commit específico.
+
+---
 
 ## 🌿 Ramas 
 - `git branch` &rarr; Lista las ramas. 
