@@ -39,3 +39,25 @@
 - `git rm <archivo>` &rarr; Elimina un archivo del repo. 
 - `git mv <archivo> <nuevo-nombre>` &rarr; Renombra o mueve un archivo. 
 - `git help <comando>` &rarr; Muestra ayuda sobre un comando específico.
+
+## 📋 Tabla rápida de referencia
+
+| Comando                  | Qué hace                                | Ejemplo de uso                          |
+|---------------------------|-----------------------------------------|-----------------------------------------|
+| `git status`              | Muestra estado actual del repo          | `git status`                            |
+| `git add .`               | Agrega todos los archivos               | `git add .`                             |
+| `git add <archivo>`       | Agrega un archivo específico            | `git add index.html`                    |
+| `git commit -m "msg"`     | Guarda cambios en historial             | `git commit -m "Agregando index.html"`  |
+| `git push origin main`    | Sube cambios a GitHub                   | `git push origin main`                  |
+| `git pull origin main`    | Trae cambios más recientes              | `git pull origin main`                  |
+| `git log --oneline`       | Historial compacto                      | `git log --oneline`                     |
+| `git branch <nombre>`     | Crea una nueva rama                     | `git branch feature-login`              |
+| `git checkout <nombre>`   | Cambia a otra rama                      | `git checkout feature-login`            |
+| `git switch <nombre>`     | Alternativa moderna a checkout          | `git switch feature-login`              |
+| `git merge <rama>`        | Fusiona una rama                        | `git merge feature-login`               |
+| `git reset --hard HEAD~1` | Borra cambios y vuelve al commit previo | `git reset --hard HEAD~1`               |
+| `git revert <id-commit>`  | Crea un commit inverso (más seguro)     | `git revert a1b2c3d`                    |
+| `git rm <archivo>`        | Elimina un archivo del repo             | `git rm viejo.txt`                      |
+| `git mv <archivo> <nuevo>`| Renombra o mueve un archivo             | `git mv index.html inicio.html`         |
+| `git diff`                | Muestra diferencias entre archivos      | `git diff`                              |
+| `git remote -v`           | Lista repositorios remotos vinculados   | `git remote -v`                         |
