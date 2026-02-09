@@ -24,7 +24,10 @@ Una referencia rápida y práctica para aprender y usar **Git** y **GitHub** en 
 - `git remote -v` &rarr; Lista los repositorios remotos vinculados. 
 - `git push origin main` &rarr; Sube tus cambios a GitHub. 
 - `git pull origin main` &rarr; Trae la versión más reciente desde GitHub. 
-- `git fetch origin` &rarr; Descarga cambios sin fusionarlos.
+- `git fetch origin` &rarr; Descarga cambios sin fusionarlos. 
+- `git push -u origin main` &rarr; Sube la rama principal y la vincula al remoto.
+
+---
 
 ## 🧭 Historial 
 - `git log` &rarr; Muestra el historial de commits. 
