@@ -10,11 +10,15 @@ Una referencia rápida y práctica para aprender y usar **Git** y **GitHub** en 
 
 ---
 
-## 📂 Estado y cambios
+## 📂 Estado y cambios 
 - `git status` &rarr; Muestra el estado de los archivos. 
-- `git add <archivo>` &rarr; Agrega un archivo al área de preparación.
+- `git add <archivo>` &rarr; Agrega un archivo al área de preparación. 
 - `git add .` &rarr; Agrega todos los archivos modificados. 
-- `git commit -m "mensaje"` &rarr; Guarda los cambios en el historial.
+- `git commit -m "mensaje"` &rarr; Guarda los cambios en el historial. 
+- `git commit -am "mensaje"` &rarr; Agrega y guarda cambios en un solo paso. 
+- `git diff` &rarr; Muestra diferencias entre archivos.
+
+---
 
 ## 🔄 Sincronización con GitHub 
 - `git remote -v` &rarr; Lista los repositorios remotos vinculados. 
