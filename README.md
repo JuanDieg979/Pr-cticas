@@ -42,7 +42,11 @@ Una referencia rápida y práctica para aprender y usar **Git** y **GitHub** en 
 - `git branch <nombre>` &rarr; Crea una nueva rama. 
 - `git checkout <nombre>` &rarr; Cambia de rama. 
 - `git switch <nombre>` &rarr; Alternativa moderna a checkout. 
-- `git merge <rama>` &rarr; Fusiona una rama en la actual.
+- `git merge <rama>` &rarr; Fusiona una rama en la actual. 
+- `git branch -d <nombre>` &rarr; Elimina una rama local. 
+- `git push origin --delete <nombre>` &rarr; Elimina una rama remota. 
+
+---
 
 ## 🧹 Deshacer cambios 
 - `git restore <archivo>` &rarr; Revierte un archivo al último commit. 
