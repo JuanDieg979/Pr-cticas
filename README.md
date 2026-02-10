@@ -52,7 +52,11 @@ Una referencia rápida y práctica para aprender y usar **Git** y **GitHub** en 
 - `git restore <archivo>` &rarr; Revierte un archivo al último commit. 
 - `git reset --soft HEAD~1` &rarr; Deshace el último commit pero conserva cambios. 
 - `git reset --hard HEAD~1` &rarr; Vuelve al commit anterior y borra cambios. 
-- `git revert <id-commit>` &rarr; Crea un commit inverso (más seguro en equipo).
+- `git revert <id-commit>` &rarr; Crea un commit inverso (más seguro en equipo). 
+- `git stash` &rarr; Guarda cambios temporales sin hacer commit. 
+- `git stash pop` &rarr; Recupera los cambios guardados. 
+
+---
 
 ## 🛠 Otros útiles 
 - `git diff` &rarr; Muestra diferencias entre archivos. 
