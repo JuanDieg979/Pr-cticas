@@ -64,6 +64,27 @@ Una referencia rápida y práctica para aprender y usar **Git** y **GitHub** en 
 - `git mv <archivo> <nuevo-nombre>` &rarr; Renombra o mueve un archivo. 
 - `git help <comando>` &rarr; Muestra ayuda sobre un comando específico.
 
+---
+
+## 📌 Flujo típico de trabajo 
+```bash 
+# Traer cambios recientes 
+git pull origin main 
+
+# Ver estado 
+git status 
+
+# Agregar archivos 
+git add . 
+
+# Guardar cambios 
+git commit -m "Descripción clara de cambios" 
+
+# Subir a GitHub 
+git push origin main
+
+---
+
 ## 📋 Tabla rápida de referencia
 
 | Comando                  | Qué hace                                | Ejemplo de uso                          |
