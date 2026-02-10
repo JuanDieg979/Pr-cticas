@@ -82,6 +82,7 @@ git commit -m "Descripción clara de cambios"
 
 # Subir a GitHub 
 git push origin main
+```
 
 ---
 
